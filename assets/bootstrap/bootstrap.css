@@ -6004,6 +6004,9 @@ textarea.form-control-lg {
 .carousel-item-prev {
   display: block;
 }
+.carousel-item img{
+  max-height: 800px;
+}
 
 /* rtl:begin:ignore */
 .carousel-item-next:not(.carousel-item-start),
@@ -6052,7 +6055,7 @@ textarea.form-control-lg {
   justify-content: center;
   width: 15%;
   padding: 0;
-  color: #fff;
+  color: black;
   text-align: center;
   background: none;
   border: 0;
